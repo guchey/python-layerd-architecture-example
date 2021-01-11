@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+inject = "*"
+flask = "*"
+
+[dev-packages]
+import-linter = "*"
+isort = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+dev = "python main.py"
+lintfix = "bash -c 'isort . && lint-imports'"
