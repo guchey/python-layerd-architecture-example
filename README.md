@@ -1,1 +1,2 @@
-# python-layerd-architecture-example
+# 概要
+Pythonを利用したレイヤードアーキテクチャのサンプル
